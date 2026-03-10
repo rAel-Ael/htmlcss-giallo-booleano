@@ -25,18 +25,23 @@
     .btn {
         padding: 14px 40px;
     }
+    .ads{
+        display: block;
+        
+    }
 
     img {
         float: left;
+        
     }
-
-    ul {
+    
+   .quick-notes ul {
         display: flex;
         flex-wrap: wrap;
 
     }
 
-    li {
+    .quick-notes li {
         flex-basis: calc(100%/3);
     }
 }
@@ -47,17 +52,30 @@
         font-size: xx-large;
     }
 
-    ul {
+    .quick-notes ul {
         display: block;
 
 
     }
-    .recipe-card {
-        display: flex;
+
+    .recipe-video {
+        flex-grow: 1;
+        height: auto;
     }
 
+    .recipe-card {
+        display: flex;
+        height: 0;
+        min-height: 450px;
 
 
+    }
 
+    footer {
+        display: flex;
+        justify-content: space-between;
+        
+    }
 
+    
 }
