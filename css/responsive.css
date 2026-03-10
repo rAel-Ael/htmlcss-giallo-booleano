@@ -1,1 +1,42 @@
 /* Soluzione qui */
+
+
+@media screen and (min-width: 768px) {
+    #topbar {
+
+        justify-content: flex-start;
+
+
+    }
+
+    main {
+        padding: 44px;
+    }
+
+    .recipe-name::before {
+        content: "Dolce tradizionale: ";
+        font size: x-large;
+    }
+
+    .recipe-name {
+        font-size: xx-large;
+    }
+
+    .btn {
+        padding: 14px 40px;
+    }
+
+    img {
+        float: left;
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    li {
+        flex-basis: calc(100%/3);
+    }
+}
