@@ -25,17 +25,18 @@
     .btn {
         padding: 14px 40px;
     }
-    .ads{
+
+    .ads {
         display: block;
-        
+
     }
 
     img {
         float: left;
-        
+
     }
-    
-   .quick-notes ul {
+
+    .quick-notes ul {
         display: flex;
         flex-wrap: wrap;
 
@@ -74,7 +75,13 @@
     footer {
         display: flex;
         justify-content: space-between;
-        
+
+    }
+
+    .social-networks .label {
+        display: inline;
+
+
     }
 
     
