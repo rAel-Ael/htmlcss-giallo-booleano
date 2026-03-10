@@ -15,7 +15,7 @@
 
     .recipe-name::before {
         content: "Dolce tradizionale: ";
-        font size: x-large;
+
     }
 
     .recipe-name {
@@ -39,4 +39,25 @@
     li {
         flex-basis: calc(100%/3);
     }
+}
+
+@media screen and (min-width: 992px) {
+
+    .recipe-name {
+        font-size: xx-large;
+    }
+
+    ul {
+        display: block;
+
+
+    }
+    .recipe-card {
+        display: flex;
+    }
+
+
+
+
+
 }
